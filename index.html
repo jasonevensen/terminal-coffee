@@ -22,12 +22,27 @@
                 </div>
         </nav>
 
-        <main>
-                <!-- Main content goes here -->
-        </main>
+        <section class="hero" id="home">
+                <h1>Welcome to the Terminal<span class="cursor">_</span></h1>
+                <p>Where code compiles and coffee flows</p>
+                <a href="#menu" class="btn">view_menu()</a>
+        </section>
+
+        <section id="menu">
+                <div class="container">
+                        <h2 class="section-title">Menu</h2>
+                        <div class="menu-categories">
+                                <button class="category-btn active" data-category="all">all</button>
+                                <button class="category-btn" data-category="coffee">coffee</button>
+                                <button class="category-btn" data-category="food">food</button>
+                                <button class="category-btn" data-category="pastries">pastries</button>
+                        </div>
+
+                        <-- TODO add menu-grid -->
         
         <footer>
-                <p>&copy; 2025 Your Project Name. All rights reserved.</p>
+                <p>&copy; 2025 The Terminal Coffee Shop | Brewed with ❤️  and JavaScript</p>
+                <p class="todo">// TODO: Add social media links</p>
         </footer>
 
         <script src="js/script.js"></script>
